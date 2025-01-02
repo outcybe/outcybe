@@ -1,0 +1,157 @@
+body {
+  background: #ff3300;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+      color: #ff3300;
+    font-size: 22pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1%;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+      color: #ff3300;
+    font-size: 13pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1%;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1%;
+}
+
+.output {
+  text-align: center;
+}
+
+.output a, .output a:link, .output a:visited {
+  font-family: "Jost", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 15pt;
+  transition: all 1s ease-in-out;
+  margin-top: 10px;
+}
+
+.output a:hover {
+  color: gold;
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.outgrowths {
+  text-align: center;
+}
+
+.outgrowths a, .outgrowths a:link, .outgrowths a:visited {
+  font-family: "Jost", sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 15pt;
+  transition: all 1s ease-in-out;
+}
+
+.outgrowths a:hover {
+  color: #52d132;
+  text-decoration: none;
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.weeburst {
+  width: 150px;
+  height: auto;
+}
+
+.weeplaza {
+  width: 100px;
+  height: auto;
+}
+
+.weegrowth {
+  width: 100px;
+  height: auto;
+}
+
+  .burst {
+    background-color: white;
+    align-self: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 500px;
+  }
+
+  a:link, a:visited {
+    color: #FF4400;
+  }
+
+  .grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+
+  .navlinkgrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.card {
+text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+  @media (min-width:768px) {
+    .burst {
+   max-width:800px;
+    }
+    }
+
+main img {
+  margin: 0;
+  padding: 0;
+}

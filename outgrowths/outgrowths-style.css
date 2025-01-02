@@ -1,0 +1,76 @@
+body {
+  background: #9FF28A;
+  min-height: 100%;
+}
+
+h1 {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+    color: #32d15c;
+    font-size: 75px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2 {
+  font-family: "Jost", sans-serif;
+      color: black;
+    font-size: 20pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1%;
+}
+
+h3 {
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+      color: #9FF28A;
+    font-size: 15pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1%;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+    color: black;
+    font-size: 15pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 1%;
+}
+
+  .burst {
+    background-color: #9FF28A;
+    align-self: center;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 800px;
+  }
+
+  a:link, a:visited {
+    color: #32d15c;
+  }
+
+  .grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width:768px) {
+    .burst {
+   max-width:800px;
+    }
+    }
+

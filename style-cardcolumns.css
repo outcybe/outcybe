@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.mainmarg {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 15pt;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
+}
+
+.outgrowths {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.outgrowths a, .outgrowths a:link, .outgrowths a:visited {
+  font-family: 'Courier New', Courier, monospace;
+  color: #71C15E;
+  text-decoration: underline;
+  font-size: 20pt; 
+  transition: all 1s ease;
+}
+
+.outgrowths a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 22pt;
+}
+
+.outbursts {
+  text-align: left;
+  float: left;
+  margin-bottom: 20%;
+}
+
+.outbursts a, .outbursts a:link, .outbursts a:visited {
+  font-family: 'Courier New', Courier, monospace;
+  color: #FF4400;
+  text-decoration: underline;
+  font-size: 20pt;
+  padding-left: 30px;
+  transition: all 1s ease;
+}
+
+.outbursts a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 22pt;
+}
+
+.output {
+  text-align: right;
+  float: right;
+  margin-bottom: 20%;
+}
+
+.output a, .output a:link, .output a:visited {
+  font-family: 'Courier New', Courier, monospace;
+  color: gold;
+  text-decoration: underline;
+  font-size: 20pt;
+  padding-right: 30px;
+  transition: all 1s ease;
+}
+
+.output a:hover {
+  color: white;
+  text-decoration: none;
+  font-size: 22pt;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+text-align: center;
+width: 75%;
+}
+
+.orangecard {
+background-color: #f88055;
+}
+
+.greencard {
+  background-color:#8de477;
+  }
+
+  .yellowcard {
+    background-color:rgb(255, 211, 79);
+    }
+  
+.card img {
+  width: 30%;
+  height: auto;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+@media (min-width:768px) {
+  .container {
+text-align: center;
+
+  }
+  }

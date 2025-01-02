@@ -1,0 +1,243 @@
+header {
+  background-color: white;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35;
+  font-family: "Jost", sans-serif;
+  font-weight: bold;
+  margin: 0%;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+  color: black;
+  font-size: 12pt;
+  text-align:left;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 5px;
+}
+
+.outgrowths {
+  text-align: center;
+}
+
+.outgrowths a, .outgrowths a:link, .outgrowths a:visited {
+  font-family: "Jost", sans-serif;
+  color: #52d132; 
+  text-decoration: none;
+  font-size: 25pt;
+  transition: all 1s ease-in-out;
+}
+
+.outgrowths a:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 27pt;
+  font-weight: bold;
+}
+
+.outbursts {
+  text-align: center;
+}
+
+.outbursts a, .outbursts a:link, .outbursts a:visited {
+  font-family: "Jost", sans-serif;
+  color: #ff4400; 
+  text-decoration: none;
+  font-size: 25pt;
+  transition: all 1s ease-in-out;
+  margin-top: 10px;
+}
+
+.outbursts a:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 27pt;
+  font-weight: bold;
+}
+
+.output {
+  text-align: center;
+}
+
+.output a, .output a:link, .output a:visited {
+  font-family: "Jost", sans-serif;
+  color: gold; 
+  text-decoration: none;
+  font-size: 25pt;
+  transition: all 1s ease-in-out;
+  margin-top: 10px;
+}
+
+.output a:hover {
+  color: black;
+  text-decoration: none;
+  font-size: 27pt;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px;
+  padding: 0px;
+}
+
+.grid-item {
+  text-align: center;
+  align-content: center;
+  height:100%;
+}
+
+.growthdiv {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.plazadiv {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.burstdiv {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.whitecolumn {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.burstcolumn {
+  background-color: #ff7c4c;
+  width: 100%;
+  height: 100%;
+}
+
+.topburstcolumn {
+  background-image: linear-gradient(to bottom, white, #ff7c4c);
+  width: 100%;
+  height: 100%;
+}
+
+.growthcolumn {
+  background-color: #b4ffa1;
+  width: 100%;
+  height: 100%;
+}
+
+.topgrowthcolumn {
+  background-image: linear-gradient(to bottom, white, #b4ffa1);
+  width: 100%;
+  height: 100%;
+}
+
+.plazacolumn {
+  background-color: #6153e1;
+  width: 100%;
+  height: 100%;
+}
+
+.topplazacolumn {
+  background-image: linear-gradient(to bottom, white, #6153e1);
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width:768px) {
+  p {
+font-size: 10pt;
+  }
+}
+
+@media (min-width: 800px) {
+  .fte {
+  width: 60%;
+  }
+  }
+
+@media (min-width: 1000px) {
+.fte {
+width: 40%;
+}
+}
+
+@media (min-width:1500px) {
+.burstdiv, .growthdiv, .plazadiv {
+margin-left: 100px;
+margin-right: 100px;
+}
+.fte {
+  width: 30%;
+  }
+}
+
+  .outgrowths a, .outgrowths a:link, .outgrowths a:visited {
+font-size: 20pt;
+  }
+
+  .outbursts a, .outbursts a:link, .outbursts a:visited {
+font-size: 20pt;
+  }
+
+  .output a, .output a:link, .output a:visited {
+font-size: 20pt;
+  }
+
+  .fte {
+    animation-name: testanimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+  }
+
+  @keyframes testanimation {
+    0% {
+      transform: translateY(0%);
+    }
+
+    10% {
+      transform: translateY(13%);
+    }
+
+    20% {
+      transform: translateY(0%);
+    }
+
+    30% {
+      transform: translateY(8%);
+    }
+
+    50% {
+      transform: translateY(0%);
+    }
+
+    70% {
+      transform: translateY(5%);
+    }
+
+    100% {
+      transform: translateY(0%);
+    }
+  }
+

@@ -1,0 +1,163 @@
+body {
+    background-color: #0B0072;
+}
+h1 {
+    font-family: "Jost", sans-serif;
+    color: #FFCA00;
+    font-size: 75px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCA00;
+    font-size: 20pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+    font-family: "Jost", sans-serif;
+    color: #0B0072;
+    font-size: 15pt;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.output a:visited {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCA00;
+    text-decoration: none; 
+    font-size: 20pt;
+    text-align: left; 
+    padding-left: 30px;
+  }
+
+  .output {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFCA00;
+    text-decoration: none; 
+    font-size: 20pt;
+    text-align: left; 
+    padding-left: 30px;
+  }
+
+  .burst {
+    background-color: gold;
+    align-self: center;
+    padding: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+
+.gallery-grid {
+    column-count: 4;
+    margin-left: 50px;
+    margin-right: 50px;
+    column-gap: 10px;
+    padding: 10px;
+}
+
+.gallery-item {
+    break-inside: avoid;
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  .grid-item1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.grid-item2 {
+    background-image: linear-gradient(to bottom, white 30%, #8080B3 60%, #0B0072 90%);
+}
+
+.fte {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+}
+
+.weeburst {
+    width: 150px;
+    height: auto;
+  }
+  
+  .weeplaza {
+    width: 100px;
+    height: auto;
+  }
+  
+  .weegrowth {
+    width: 100px;
+    height: auto;
+  }
+  
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.card {
+text-align: center;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.outgrowths a, .outgrowths a:link, .outgrowths a:visited {
+    font-family: "Jost", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 15pt;
+    transition: all 1s ease-in-out;
+  }
+  
+  .outgrowths a:hover {
+    color: #52d132;
+    text-decoration: none;
+    font-size: 16pt;
+    font-weight: bold;
+  }  
+
+@media (max-width:768px) {
+    .gallery-grid {
+        column-count: 2;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1500px) {
+    .gallery-grid {
+            column-count: 3;
+            margin-left: 10px;
+        margin-right: 10px;
+}
+}
